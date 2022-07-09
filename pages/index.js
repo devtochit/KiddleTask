@@ -1,8 +1,10 @@
 import { Carousel } from "react-responsive-carousel";
+Image
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import Head from "next/head";
+import Image from "next/image";
 
 export default function Home() {
   const line = "Letchatnow";
@@ -107,21 +109,21 @@ export default function Home() {
             swipeable={false}
           >
             <div>
-              <img
+              <Image
                 className="h-screen object-cover w-full"
                 loading="lazy"
                 src="https://i.ibb.co/TcKZxqP/brooke-cagle-u-HVRv-Dr7pg-unsplash.jpg"
               />
             </div>
             <div>
-              <img
+              <Image
                 className="h-screen object-cover w-full"
                 loading="lazy"
                 src="https://i.ibb.co/VS6wrG9/linkedin-sales-solutions-Ijk-IOe-2f-F4-unsplash.jpg"
               />
             </div>
             <div>
-              <img
+              <Image
                 className="h-screen object-cover w-full"
                 loading="lazy"
                 src="https://i.ibb.co/1mPW057/krakenimages-376-KN-ISpl-E-unsplash.jpg"
