@@ -110,21 +110,21 @@ export default function Home() {
               <img
                 className="h-screen object-cover w-full"
                 loading="lazy"
-                src="https://i.ibb.co/pffTtVv/https-hypebeast-com-image-2018-12-these-are-the-best-sneakers-of-2018-005.jpg"
+                src="https://i.ibb.co/TcKZxqP/brooke-cagle-u-HVRv-Dr7pg-unsplash.jpg"
               />
             </div>
             <div>
               <img
                 className="h-screen object-cover w-full"
                 loading="lazy"
-                src="https://i.ibb.co/4YskC1T/c095795f992f84b92b16c65b93ecb5f5.jpg"
+                src="https://i.ibb.co/VS6wrG9/linkedin-sales-solutions-Ijk-IOe-2f-F4-unsplash.jpg"
               />
             </div>
             <div>
               <img
                 className="h-screen object-cover w-full"
                 loading="lazy"
-                src="https://i.ibb.co/bvvFBPt/R.jpg"
+                src="https://i.ibb.co/1mPW057/krakenimages-376-KN-ISpl-E-unsplash.jpg"
               />
             </div>
           </Carousel>
