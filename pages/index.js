@@ -4,7 +4,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import Head from "next/head";
 import Image from "next/image";
-import Header from "../components/Header.js/header";
+import Header from "../components/Header/header";
 
 export default function Home() {
   const line = "Letchatnow";
@@ -45,8 +45,9 @@ export default function Home() {
       <Head>
         <title>letChat | Home</title>
       </Head>
-      <Header />
       <div className="w-full h-screen relative">
+        <Header />
+
         <div className="absolute top-1/3 z-20 flex flex-col place-items-center w-full">
           <div className="">
             <motion.div
@@ -70,7 +71,7 @@ export default function Home() {
                   variants={letter}
                   className="flex justify-center w-full place-items-center text-white underline mt-5 text-sm font-normal cursor-pointer"
                 >
-                  Do something you love doing
+                  Chat Now
                   <span>
                     <svg
                       className="w-4 h-4 ml-2"

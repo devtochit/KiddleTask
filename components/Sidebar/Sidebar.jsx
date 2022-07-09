@@ -16,16 +16,10 @@ import {
 
 function Sidebar() {
     return (
-        <div className='hidden sm:flex flex-col p-2 xl:items-start fixed h-full xl:ml-24'>
-            <div className='hoverEffect p-0 hover:bg-blue-400 xl:px-1'>
-                <Image
-                    width="50"
-                    height="50"
-                    src="https://help.twitter.com/content/dam/help-twitter/brand/logo.png">
-                </Image>
-            </div>
+        <div className='bg-white rounded-3xl px-5 py-6 shadow-lg w-2/3 md:w-full 1g:auto'>
+            <h3 className="font-semibold mb-3 text-lg text-cusblack">Categories</h3>
 
-            <div className='mt-4 mb-2.5 xl:items-start'>
+            <div className="leading-10 text-xs text-gray-400">
                 <SidebarMenuItem text="Home" Icon={HomeIcon} />
                 <SidebarMenuItem text="Explore" Icon={HashtagIcon} />
 
@@ -36,3 +30,29 @@ function Sidebar() {
 }
 
 export default Sidebar;
+// turn(
+//     <div className="bg-white rounded-3xl px-5 py-6 shadow-lg w-2/3 md:w-1/2 lg:w-auto">
+//         <h3 className="font-semibold mb-3 text-lg text-cusblack">Categories</h3>
+//         <ul className="leading-10 text-xs text-gray-400">
+//             <li>
+//                 <button
+//                     className={`${recent == "" ? `font-semibold text-cusblack` : ``
+//                         } cursor-pointer`}
+//                     onClick={() => dispatch(selectCategory(""))}
+//                 >
+//                     All products
+//                 </button>
+//             </li>
+//             {typesData.map((type, idx) => (
+//                 <li key={type.slug}>
+//                     <button
+//                         className={`${recent == type.name ? `font-semibold text-cusblack` : ``
+//                             } cursor-pointer`}
+//                         onClick={() => dispatch(selectCategory(type.name))}
+//                     >
+//                         {type.name}
+//                     </button>
+//                 </li>
+//             ))}
+//         </ul>
+//     </div>
