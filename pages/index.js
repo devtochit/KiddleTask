@@ -3,6 +3,8 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import Head from "next/head";
+import Image from "next/image";
+import Header from "../components/Header.js/header";
 
 export default function Home() {
   const line = "Letchatnow";
@@ -43,6 +45,7 @@ export default function Home() {
       <Head>
         <title>letChat | Home</title>
       </Head>
+      <Header />
       <div className="w-full h-screen relative">
         <div className="absolute top-1/3 z-20 flex flex-col place-items-center w-full">
           <div className="">
@@ -108,6 +111,7 @@ export default function Home() {
           >
             <div>
               <img
+                alt="pics"
                 className="h-screen object-cover w-full"
                 loading="lazy"
                 src="https://i.ibb.co/TcKZxqP/brooke-cagle-u-HVRv-Dr7pg-unsplash.jpg"
@@ -115,6 +119,7 @@ export default function Home() {
             </div>
             <div>
               <img
+                alt="pics"
                 className="h-screen object-cover w-full"
                 loading="lazy"
                 src="https://i.ibb.co/VS6wrG9/linkedin-sales-solutions-Ijk-IOe-2f-F4-unsplash.jpg"
@@ -122,6 +127,7 @@ export default function Home() {
             </div>
             <div>
               <img
+                alt="pics"
                 className="h-screen object-cover w-full"
                 loading="lazy"
                 src="https://i.ibb.co/1mPW057/krakenimages-376-KN-ISpl-E-unsplash.jpg"
