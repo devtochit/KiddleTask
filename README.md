@@ -1,111 +1,34 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
-# Math Magician  App
-
-> This is an app that allows users to add theirs scores to the Leaderboard API.
-
-## Built With
-
-- **Languages:**
-  - HTML5 & CSS3
-  - JavaScript
-
-- **Preprocessors:**
-  - Css
-  - Tailwind
-
-- **Framework:**
-  - React
-  - Next js
-
-- **Conventions and Methodologies:**
-  - TTD
-  - MVP pattern
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+First, run the development server:
 
-### Prerequisites
-
-- Web Browser (e.g. Firefox, Chrome, Edge)
-- NPM (Node Package Manager)
-
-### Setup
-
-Download the code from this repository.
-
-### Install
-
-1- Install the project dependencies using this command on the root project directory:
-
-```console
-$ npm install
+```bash
+npm run dev
+# or
+yarn dev
 ```
 
-2- Then, run this command to build the application's code:
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-```console
-$ npm run dev
-```
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-### Usage
- npm run dev
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Authors
+## Learn More
 
-👤 **Jesse Uzoma**
+To learn more about Next.js, take a look at the following resources:
 
-- GitHub: [@HeDevedUp](https://github.com/HeDeved)
-- Twitter: [@devtochi](https://twitter.com/devtochi)
-- LinkedIn: [jesse uzoma](https://linkedin.com/in/jesseuzoma/)
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
+## Deploy on Vercel
 
-## Todo
-planning for project
- Intro
- Install Nextjs and Tailwind CSS
- Create Sidebar component
-Create feed component and its header
-Add the input section of the feed component
- Add the post section of the feed component
-Create the widgets component and the search bar
- Create the news section of the widgets component
-Create the random users section of the widgets component
-Install next-auth and firebase and initialize the firebase
-Complete the signin page
- Get the session and modify sidebar and input components
- Send data to firebase and add loading effect
- Get post data from firestore and show them in the post section
- Add like functionality to the post
- Add delete functionality to the post
-Add animation effect using framer motion
- Install and implement recoil
- Install and implement react-modal
- Send comments to firestore, show the number of comments, and redirect using useRouter
- Create post page
- Get the comments from firestore and create the comment component
- Complete the comment component
- Deploy to vercel and fix the errors
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-
-
-
-
-
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
