@@ -56,11 +56,7 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #888;
 }
-.bg-cusgray {
-  --tw-bg-opacity: 1;
-  background-color: rgba(242,245,246,var(--tw-bg-opacity));
-}
-.text-cusblack {
-  --tw-text-opacity: 1;
-  color: rgba(56,56,56,var(--tw-text-opacity));
+button:focus {
+  outline: 1px dotted;
+  outline: 5px auto -webkit-focus-ring-color;
 }

@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Header from '../Header/header'
 import Sidebar from '../Sidebar/Sidebar'
+import Topcategory from '../topCategory/Topcategory';
 
 
 
@@ -30,7 +31,7 @@ function Index() {
             </button>
             <Header />
             <div className="max-w-6xl mx-auto pt-14 md:px-0">
-
+                <Topcategory />
                 <div className="grid grid-cols-4 gap-x-6">
                     <div
 
