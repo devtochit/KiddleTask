@@ -22,7 +22,7 @@ function Search() {
                 placeholder="Search product"
             />
             <div className="p-5 shadow-lg hidden duration-100 group-focus-within:inline group-active:inline top-11 bg-white absolute rounded-2xl w-full z-20">
-                {data.length ? (
+                {/* {data.length ? (
                     data
                         .filter((i, idx) => idx < 4)
                         .map((item, idx) => (
@@ -44,7 +44,7 @@ function Search() {
                         ))
                 ) : (
                     <p className="text-xs text-cusblack font-light">No item found</p>
-                )}
+                )} */}
             </div>
             <svg
                 className="w-4 h-4 text-gray-400"
